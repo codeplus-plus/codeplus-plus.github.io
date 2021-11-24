@@ -1,0 +1,375 @@
+/*style.css du dossier Code ++*/
+
+
+/*Le corp du programme*/
+
+body
+{
+    background-image: url(background.jpg);
+    font-family : "Mochiy Pop One", cursive ;
+    @media screen and (max-width: 1024px)
+    color: red; 
+    background-color: black;
+    font-size: 1em;
+}
+
+/*Tete de page*/
+
+header
+{
+    height: 40em;
+    background-color: rgb(13, 135, 235);
+    background-size: 1em;
+    color: darkblue;
+    font-size: 0.25em;
+    border: darkblue solid 2px;
+}
+
+header:hover
+{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+
+/*Pied de page*/
+
+footer
+{
+    width: 1550px;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 12px;
+    margin: 50px; /* Marge extérieure de 50px */
+    border: darkblue solid 2px ;
+    background-color: darkcyan;
+}
+
+/*Button*/
+
+button
+{
+    color: red;
+}
+
+/* Navigation */
+
+nav
+{
+    position: absolute;
+    right: 5%;
+    top: 110px;
+    font-size: large;
+    display: flex;
+    justify-content: right;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: black;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+
+/*Article 1*/
+
+.article1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 900px;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 12px;
+    margin: 50px; /* Marge extérieure de 50px */
+    border: darkblue solid 2px ;
+    background-color: cornflowerblue;
+}
+
+.article1:hover
+{
+    position: left;
+}
+
+/*Article 2*/
+
+.article2
+{
+    position: absolute;
+    right: 0px;
+    top: 172px;
+    justify-content: left;
+    width: 600px;
+    height: 219px;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 12px;
+    margin: 50px; /* Marge extérieure de 50px */
+    border: darkblue solid 2px ;
+    background-color: cornflowerblue;
+}
+
+.article2:hover
+{
+    position: absolute;
+}
+
+/*sous-titre*/
+
+.sous-titre1:hover
+{
+    text-shadow: darkblue 1px 1px 1px;
+}
+
+.sous-titre2:hover
+{
+    text-shadow: darkblue 1px 1px 1px;
+}
+
+.sous-titre3:hover
+{
+    text-shadow: darkblue 1px 1px 1px;
+}
+
+/*Logo*/
+
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+/*Titre*/
+
+
+.titre
+{
+    position: absolute;
+    right: 45%;
+    top: 40px;
+    text-shadow: black 2px 1px 1px;
+    font-size: 6.5em;
+}
+
+/*conteneur*/
+
+#conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.discord
+{
+    display: flex;
+    justify-content: left;
+    font-family : "Mochiy Pop One", cursive ;
+    color: blue;
+}
+
+/*Site tp*/
+
+.site1
+{
+    position: absolute;
+    bottom:325px;
+    left: 500px;
+   text-decoration: none;
+   color: blue;
+   font-style: italic;
+}
+
+.site1
+{
+    display: flex;
+}
+
+.site1:visited
+{
+    display: flex;
+    color: #888888;
+}
+/*----------*/
+.site2
+{
+    position: absolute;
+    bottom:325px;
+    left: 650px;
+   text-decoration: none;
+   color: blue;
+   font-style: italic;
+}
+
+.site2
+{
+    display: flex;
+}
+
+.site2:visited
+{
+    display: flex;
+    color: #888888;
+}
+/*----------*/
+.site3
+{
+    position: absolute;
+    bottom:325px;
+    left: 800px;
+   text-decoration: none;
+   color: blue;
+   font-style: italic;
+}
+
+.site3
+{
+    display: flex;
+}
+
+.site3:visited
+{
+    display: flex;
+    color: #888888;
+}
+/*----------*/
+.site4
+{
+    position: absolute;
+    bottom:325px;
+    left: 950px;
+   text-decoration: none;
+   color: blue;
+   font-style: italic;
+}
+
+.site4
+{
+    display: flex;
+}
+
+.site4:visited
+{
+    display: flex;
+    color: #888888;
+}
+/*----------*/
+.site5
+{
+    position: absolute;
+    bottom:325px;
+    left: 1100px;
+   text-decoration: none;
+   color: blue;
+   font-style: italic;
+}
+
+.site5
+{
+    display: flex;
+}
+
+.site5:visited
+{
+    display: flex;
+    color: #888888;
+}
+
+/*Site 1*/
+
+.site1:hover
+{
+    color: darkblue;
+}
+
+/*site2*/
+
+.site2:hover
+{
+    color:darkblue;
+}
+
+/*Site3*/
+
+.site3:hover
+{
+    color: darkblue;
+}
+
+/*Site4*/
+
+.site4:hover
+{
+    color: darkblue;
+}
+
+/*Site5*/
+
+.site5:hover
+{
+    color: darkblue;
+}
+
+/*Version mobile*/
+
+@media all and (max-width: 1024px)
+{
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+    nav li
+    {
+        padding-left: 4px;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+}
+
+
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+}
+
+/*Paragraphe*/
+
+p:hover
+{
+    text-shadow: black 1px 1px 1px;
+}
